@@ -209,5 +209,6 @@ sudo ./cloudera-manager-installer.bin
 ![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_8.png)
 
 ![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_9.png)
-- 登录用户名和密码都是admin
-  ![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_10.png)
+- 然后打开浏览器，输入192.168.x.x:7180(sandy1的ip),登录用户名和密码都是admin
+
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_10.png)
