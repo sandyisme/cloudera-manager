@@ -190,26 +190,24 @@ sudo ./cloudera-manager-installer.bin
 
 - 安装步骤
 
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture1.png)
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_1.png)
 
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture2.png)
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_2.png)
 
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture3.png)
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_3.png)
 
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture4.png)
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_4.png)
 
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture5.png)
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_5.png)
 
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture6.png)
-- 注：此步骤可能多次失败，那是因为网络原因，重复安装步骤，直到完成安装完成到下个页面(或者可以根据提示的log,wget下载然后rpm安装)
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_6.png)
+- 注：此步骤可能多次失败，出现如下页面，那是因为网络原因，重复安装步骤，直到完成安装完成(或者可以根据提示的log,cat log 得到下载地址wget下载，然后rpm安装)
 
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture7.png)
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_7.png)
+- 出现如下页面，恭喜你安装成功
 
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture8.png)
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_8.png)
+
+![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_9.png)
 - 登录用户名和密码都是admin
-
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture9.png)
-
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture10.png)
-
-![ ](https://git.sinitek-corp.com/ailab-product/big-data-tutorials/raw/master/picture/clouderamanagerpicture11.png)
+  ![ ](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/install_cloudera_manager_10.png)
