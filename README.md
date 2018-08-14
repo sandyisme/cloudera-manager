@@ -67,6 +67,13 @@ chmod 700 .ssh
 chmod 600 .ssh/*
 ```
 
+- 测试连接（推荐每台机器上测试一下，建立连接）
+```
+ssh sandy2
+ssh sandy3
+ssh sandy4
+```
+
 ### java 环境的配置
 
 - 首先查看是否存在自带的java环境
