@@ -181,10 +181,15 @@ systemctl status firewalld
    Active: inactive (dead) since 二 2018-07-17 15:00:07 CST; 10min ago
 ```
 
-- 关闭防火墙
+- 关闭防火墙（重启后防火墙也会启动）
 
 ```shell
 systemctl stop firewalld
+```
+- 禁止防火墙开机启动
+
+```shell
+systemctl disable firewalld.service
 ```
 
 ## 安装cloudera manager
