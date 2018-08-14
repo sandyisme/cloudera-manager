@@ -192,6 +192,12 @@ systemctl stop firewalld
 systemctl disable firewalld.service
 ```
 
+- 查看防火墙是否开机启动
+
+```shell
+systemctl is-enabled firewalld.service;echo $?
+```
+
 ## 安装cloudera manager
 
 - 执行安装命令
