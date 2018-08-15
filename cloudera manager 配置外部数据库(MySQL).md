@@ -1,9 +1,8 @@
 # cloudera manager 配置外部数据库（MySQL）
 
+## 使用rpm安装MySQL
 
-##使用rpm安装MySQL
-
-###下载MySQL的安装包
+### 下载MySQL的安装包
 
 - 根据官网文档下载cloudera manager支持的MySQL（MySQL Support across CM/CDH 5 Releases）
 
@@ -21,7 +20,7 @@
 
 > https://dev.mysql.com/downloads/connector/j/5.1.html
 
-###安装MySQL
+### 安装MySQL
 
 - 将下载的MySQL rpm安装包或MySQL rpm的tar包解压后上传到sandy2（这里使用的是rpm的tar包）
 
@@ -117,7 +116,7 @@ select host from user where user = 'root';
 +------------+
 flush privileges;
 ```
-###MySQL 的JDBC驱动添加
+### MySQL 的JDBC驱动添加
 
 - 将下载的MySQL 的Jdbc驱动包上传，并解压
 
@@ -129,7 +128,7 @@ cd /usr/share/java
 sudo mv mysql-connector-java-5.1.46-bin.jar mysql-connector-java.jar
 ```
 
-##MySQL创建cloudera manager 所需的数据库
+## MySQL创建cloudera manager 所需的数据库
 
 - 创建cm cdh数据库环境并授予权限（根据实际需求创建）
 
@@ -143,7 +142,7 @@ GRANT ALL  privileges ON *.* TO 'oozie'@'%' IDENTIFIED BY 'sandy' with grant opt
 GRANT ALL  privileges ON *.* TO 'root'@'%' IDENTIFIED BY 'sandy' with grant option;
 ```
 
-##修改cloudera manager数据库连接，配置外部数据库
+## 修改cloudera manager数据库连接，配置外部数据库
 
 - 将cloudera manager的嵌入式postgreSQL数据库连接模式，修改成支持的外部数据库mysql连接模式（mysql -h 新节点 -u 用户名 -p ’密码’ --scm-host CMS主机 scm_db_name scm_user scm_password）
 
