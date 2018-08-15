@@ -171,6 +171,6 @@ sudo service cloudera-scm-server start
 ```
 - 登录页面，可以看到没有再提示使用的是嵌入式postgresql数据库模式，请在移入生成环境前切换为使用支持的外部数据库
 
-  ![](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/mysql.png)
-
   ![](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/postgresql.png)
+
+  ![](https://github.com/sandyisme/cloudera-manager/raw/master/Install_Image/mysql.png)
