@@ -136,7 +136,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
 - 在各个节点安装ntp时间同步
 
 ```shell
-yum install -y ntp
 sudo yum install -y ntp
 systemctl is-enabled ntpd
 systemctl enable ntpd
